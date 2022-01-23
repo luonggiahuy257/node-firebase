@@ -1,0 +1,18 @@
+// Tạo file package.json
+npm init -y
+
+// import moduel
+npm i express dotenv cors firebase
+
+// Phần mềm trung gian phân tích cú pháp nội dung Node.js.
+// Phân tích cú pháp các cơ quan yêu cầu đến trong một phần mềm trung gian trước trình xử lý của bạn, có sẵn trong thuộc req.body tính.
+npm i body-parser
+
+// Để sử dụng TypeScript, bạn cũng cần cài đặt một phiên bản ổn định với typescripttư cách là phần phụ thuộc của nhà phát triển
+npm i -D typescript
+
+// Để sử dụng TypeScript một cách hiệu quả , bạn cần cài đặt định nghĩa loại cho các gói bạn đã cài đặt trước đó
+npm i -D @types/node @types/express @types/dotenv @types/cors @types/firebase @types/body-parser
+
+// Để dễ dàng tạo tệp, hãy đảm bảo rằng bạn đang ở trong thư mục dự án và sử dụng lệnh sau:tsconfig.json
+npx tsc --init
